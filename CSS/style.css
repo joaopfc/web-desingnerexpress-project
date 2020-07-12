@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+.clear{clear: both;}
+
+.container1{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/*DIV-GERAIS*/
+
+/*HEADER*/
+
+    header{
+        padding: 20px 2% 35px 2%;
+        height: 130px;
+        background: #f0f0f0;
+    }
+
+    header div.logo{
+        float: left;
+        padding: 15px ;
+    }
+
+    header .logo h1{
+        font-weight: 800;
+        font-size: 35px;
+    }
+
+   header nav{
+        float: right;
+        position: relative;
+        top: 13px;
+    }
+
+    nav{
+        background-color: #f0f0f0;
+    }
+
+    .navbar-expand-lg{
+        font-size: 20px;
+    }
+
+    a.nav-link{
+        padding: 0 0;
+        margin-left: 70px;
+    }
+
+    
+/*HEADER*/
+
+/*SECTION-BANNER*/
+
+    .banner-escuro{
+        width: 100%;
+        background-color:rgba(0,0,0,0.6);
+        height: 650px;
+    }
+
+    .banner-foto{
+        width: 100%;
+        background-image: url('../IMG/empreendedorismo.jpg');
+        height: 650px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    section .texto-one{
+        max-width: 790px;
+        float: right;
+        margin: 140px 245px;
+        position: absolute;
+    }
+
+    section .texto-one h1{
+        text-align: center;
+        color:#ffea00 ;
+        font-size: 40px;
+    }
+
+    section .texto-one p{
+        width: 100%;
+        margin-top: 45px;
+        color: #e0e2b7;
+        font-size: 20px;
+    }
+
+    section .texto-one p:nth-of-type(2){
+        margin-top: 5px;
+    }
+
+    section .btn{
+        width: 100%;
+        transform: rotateX(-50%);
+        margin-top: 50px;
+        cursor:context-menu !important;
+    }
+
+    .btn input[type=submit]{
+        background: #ffea00;
+        font-size: 20px;
+        font-weight: 700;
+        color: black;
+        padding: 13px 50px;
+        cursor: pointer;
+        border: 2px solid #a19400;
+        border-radius: 2px;
+    }
+
+
+/*SECTION-BANNER*/
+
+/*SECTION-EXPERIENCIA*/
+
+    .box{
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .border{
+        position: absolute;
+        top: 33px;
+        right: 50%;
+        height: 8px;
+        width: 125px;
+        background: #bec502;;
+    }
+
+    .box p{
+        position: relative;
+        text-align: center;
+        font-size: 25px;
+        color: #bec502;
+        padding: 0 2%;
+        top: 40px;
+    }
+
+    section.experiencia .container1 .icones-destaque{
+        padding: 0 40px ;
+    }
+
+    .icones-destaque{
+        float: left;
+        width: 33.3%;
+    }
+
+    .icone-01{
+        background-image: url('../IMG/icone01.png');
+    }
+
+    .icone-02{
+        background-image: url('../IMG/icone02.png');
+    }
+
+    .icone-03{
+        background-image: url('../IMG/icone03.png');
+    }
+
+    .icones-destaque .icone-01,.icone-02,.icone-03{
+        width: 100px;
+        height: 100px;
+        margin-top: 100px;
+        margin-left: 33.3%;
+        background-size: 100% 100%;
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+
+    .info-icones p{
+        text-align: center;
+        max-width: 400px;
+        padding: 25px 2% 0 2%;
+        color: black;
+        font-style: italic;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+/*SECTION-EXPERIENCIA*/
+
+/*SECTION-ASSINE-AQUI*/
+
+    section.assine-aqui .container1{
+        background-color: #dccd31;
+    }
+
+    .texto-assine{
+        padding-top: 40px;
+        padding-left: 10%;
+    }
+
+    .texto-assine .wifi-ico{
+        float: left;
+        width: 20px;
+        height: 20px;
+        background-image: url('../IMG/wifi.png');
+        background-size: 100% 100%;
+        transform: rotate(65deg);
+        margin-right: 8px;
+    }
+
+    .texto-assine p{
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 600;
+    }
+
+    .dig-email{
+        margin-top: -48px;
+        padding-right: 100px;
+        float: right;
+    }
+
+    .dig-email input[type=text]{
+        padding-right: 90px;
+    }
+
+    .dig-email input[type=submit]{
+        font-size: 18px;
+        font-weight: 700;
+        color: white;
+        margin-left: -5px;
+        padding: 0px 30px;
+        cursor: pointer;
+        background-color: #ab9f26;
+        border: none;
+    }
+/*SECTION-ASSINE-AQUI*/
+
+/*SECTION-EQUIPE*/
+
+    .box-container{
+        float: left;
+        padding-left: 30px;
+        width: 50%;
+        background-color: #f0f0f0;
+    }
+
+    .box-container2{
+        float: right;
+        width: 50%;
+        background-color: red;
+        
+    }
+
+    section.equipe .container1 .box-container .box{
+        margin: 0 auto;
+    }
+
+    section.equipe .container1 .box-container .box p{
+        text-align: left;
+        font-size: 25px;
+        color: #bec502;
+        padding: 0 2%;
+        top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .conteudo-people{
+        float: left;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .foto{
+        width: 70px;
+        height: 70px;
+        border-radius: 100px;
+        background-color: gray;
+        float: left;
+        position: relative;
+    }
+
+    .autor{
+        float: left;
+    }
+
+    .autor h1{
+        color: #232323;
+        font-weight: 400;
+        font-size: 22px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .autor p{
+        color: #232323;
+        font-size: 15px;
+        padding-top: 0px;
+        padding-left: 10px;
+    }
+
+    section.equipe .container1 .box-container2 .box{
+        margin: 0 auto;
+    }
+
+    section.equipe .container1 .box-container2 .box p{
+        text-align: left;
+        font-size: 25px;
+        color: #bec502;
+        padding: 0 2%;
+        top: 10px;
+        margin-bottom: 20px;
+    }
+
+
+/*SECTION-EQUIPE*/
+
+/*RESPONSIVO*/
+
+@media screen and (max-width: 991px){
+    
+    header .logo h1{
+        font-size: 30px;
+        position: absolute;
+    }
+    
+    nav{
+        position: relative;
+        
+        background-color: transparent;
+        z-index: 999999;
+    }
+    
+    .navbar-expand-lg{
+        font-size: 20px;
+    }
+    
+    .navbar-collapse{
+        background-color:#d3d3d3 ;
+    }
+    
+    .navbar-collapse li{
+        border: 1px solid black;
+    }
+
+    /*HEADER*/
+
+    /*SECTION-BANNER*/
+
+    .banner-escuro{
+        height: 650px;
+    }
+
+    .banner-foto{
+        height: 650px;
+    }
+
+    section .texto-one{
+        position: absolute;
+        margin: 140px 0px;
+        max-width: none;
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+
+    section .texto-one p{
+        font-size: 18px;
+        text-align: left;
+        padding: 0 2%;
+    }
+
+    .btn input[type=submit]{
+        padding: 10px 20px;
+    }
+
+    /*SECTION-EXPERIENCIA*/  
+
+}  
+
+@media screen and (max-width: 890px){
+
+    section.experiencia .container1 .icones-destaque{
+        max-width: 1280px;
+    }
+    
+    .icones-destaque{
+        float: none;
+        width: 100%;
+        display: inline-block;
+        margin-top: -50px;
+    }
+
+    .icones-destaque .icone-01,.icone-02,.icone-03{
+        margin-left: 40%;
+    }
+
+    .info-icones p{
+        text-align: center;
+        max-width: none;
+    }
+
+    /*SECTION-ASSINE-AQUI*/
+
+    .texto-assine{
+        padding-top: 20px;
+        padding-left: none;
+        display: inline;
+        text-align: center;
+    }
+
+    .texto-assine .wifi-ico{
+        display: none;
+    }
+
+    .dig-email{
+        margin-top: 0px;
+        padding-right: 0px;
+        float: none;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+}
+
+@media screen and (max-width: 465px){
+
+    .banner-escuro{
+        height: 650px;
+    }
+
+    .banner-foto{
+        height: 650px;
+    }
+
+    section .texto-one h1{
+        font-size: 35px;
+    }
+
+    section .texto-one p{
+        font-size: 15px;
+    }
+
+    section .btn{
+        margin-top: 20px;
+    }
+
+    .btn input[type=submit]{
+        font-size: 15px;
+    }
+
+    /*SECTION-EXPERIENCIA*/
+
+    .icones-destaque .icone-01,.icone-02,.icone-03{
+        margin-left: 30%;
+    }
+
+    /*SECTION-ASSINE-AQUI*/
+
+    .dig-email{
+        padding-bottom: 15px;
+    }
+
+    .dig-email input[type=text]{
+        padding-right: 10px;
+    }
+
+    .dig-email input[type=submit]{
+        font-size: 18px;
+        font-weight: 700;
+        color: white;
+        margin-left: -5px;
+        padding: 0px 20px;
+        cursor: pointer;
+        background-color: #ab9f26;
+        border: none;
+    }
+
+}
+
+@media screen and (max-width: 415px){
+
+    .banner-escuro{
+        height: 600px;
+    }
+
+    .banner-foto{
+        height: 600px;
+    }
+   
+}
+
+@media screen and (max-width: 375px){
+
+    section .texto-one{
+        margin: 80px 0px;
+    }
+}
+
+@media screen and (max-width: 320px){
+
+    section .texto-one{
+        margin: 50px 0px;
+    }
+}
+
+/*RESPONSIVO*/
+
